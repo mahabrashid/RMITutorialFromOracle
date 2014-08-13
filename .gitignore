@@ -7,4 +7,4 @@
 # we want to ignore all individual .gitignore files inside eclipse projects, 
 # however, we would like to capture any changes made to the parent .gitignore fie so that the rule is propagated to all working directories in all locations.
 
-/**/.gitignore
+*.gitignore
