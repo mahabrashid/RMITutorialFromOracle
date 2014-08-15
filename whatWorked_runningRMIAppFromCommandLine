@@ -1,0 +1,6 @@
+## when both server and client applications are run locally,
+## if the below mentioned environment variables aren't set within the program code, you would need to run the server program (passing in the VM arguments) with following command:
+
+C:\Users\Tanvir\Documents\university\My Java prgramming\Eclipse Workspace\RMITutorialFromOracle\RMISecurityInvestigation2RemoteInterface\bin>
+java -cp compute.jar:. -Djava.rmi.server.useCodebaseOnly=false -Djava.rmi.server.codebase=file:../../RMISecurityInvestigation2ClientSide/bin/ -Djava.security.policy=../security/server.policy engine/ComputeEngineStarter
+
